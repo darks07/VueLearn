@@ -1,0 +1,543 @@
+- 23:29:04.546 INFO: --------------------------------------------------------
+- 23:29:04.546 INFO: Started application
+- 23:29:04.546 INFO: Logging to: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log
+- 23:29:04.546 INFO: Log level = DEBUG4
+- 23:29:04.546 INFO: Starting Mongoose 3.9c web server
+- 23:29:04.546 INFO: WWW directory: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\www
+- 23:29:04.546 INFO: Index files: index.html,index.php
+- 23:29:04.546 INFO: CGI interpreter: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\php\php-cgi.exe
+- 23:29:04.546 INFO: CGI pattern: **.php$
+- 23:29:04.546 INFO: Hide files patterns: 
+- 23:29:04.546 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RISKYJ~1\AppData\Local\Temp\
+- 23:29:04.577 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:29:04.640 INFO: Web server url: http://127.0.0.1:53755/
+- 23:29:04.640 INFO: remote_debugging_port = 55110
+- 23:29:04.733 DEBUG: Command line string for the browser process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --remote-debugging-port=55110
+- 23:29:05.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0126 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2963 --gpu-driver-date=1-16-2013 --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --service-request-channel-token=699AD205F2CA9B179B6BCA254AF9F892 --mojo-platform-channel-handle=1312 /prefetch:2
+- 23:29:06.184 DEBUG: App::OnContextInitialized()
+- 23:29:06.184 DEBUG: Window max width/height = 1286/690
+- 23:29:06.184 DEBUG: GetBrowserWindow(): not found, hwnd = 526486
+- 23:29:06.184 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:29:06.184 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:29:06.184 DEBUG: StoreBrowserWindow(): hwnd = 526486
+- 23:29:06.808 DEBUG: ClientHandler::OnAfterCreated()
+- 23:29:06.808 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:29:07.871 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:29:07.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=376BD242D6EE819F03987AA313F72F1B --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=376BD242D6EE819F03987AA313F72F1B --renderer-client-id=3 --mojo-platform-channel-handle=1636 /prefetch:1
+- 23:29:07.546 DEBUG: OnBrowserCreated()
+[0917/232908.753:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:29:09.788 INFO: GET 200 /
+- 23:29:10.323 DEBUG: OnContextCreated()
+- 23:29:11.911 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53755/
+- 23:29:50.270 DEBUG: WM_DESTROY
+- 23:29:50.270 DEBUG: RemoveBrowserWindow(): hwnd = 526486
+- 23:29:50.270 INFO: Stopping Mongoose web server
+- 23:29:50.270 DEBUG: Mongoose webserver stopped immediately
+- 23:29:50.301 DEBUG: OnBeforeClose() hwnd=1181780
+- 23:29:50.301 DEBUG: RemoveBrowserWindow(): hwnd = 1181780
+- 23:29:50.301 DEBUG: GetBrowserWindow(): not found, hwnd = 1181780
+- 23:29:50.317 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:29:50.317 DEBUG: Calling CefQuitMessageLoop()
+- 23:29:50.478 DEBUG: OnBrowserDestroyed()
+- 23:29:50.457 INFO: Ended application
+- 23:29:50.457 INFO: --------------------------------------------------------
+- 23:30:13.265 INFO: --------------------------------------------------------
+- 23:30:13.265 INFO: Started application
+- 23:30:13.265 INFO: Logging to: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log
+- 23:30:13.265 INFO: Log level = DEBUG4
+- 23:30:13.265 INFO: Starting Mongoose 3.9c web server
+- 23:30:13.265 INFO: WWW directory: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\www
+- 23:30:13.265 INFO: Index files: index.html,index.php
+- 23:30:13.265 INFO: CGI interpreter: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\php\php-cgi.exe
+- 23:30:13.265 INFO: CGI pattern: **.php$
+- 23:30:13.265 INFO: Hide files patterns: 
+- 23:30:13.265 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RISKYJ~1\AppData\Local\Temp\
+- 23:30:13.265 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:30:13.281 INFO: Web server url: http://127.0.0.1:53823/
+- 23:30:13.281 INFO: remote_debugging_port = 58988
+- 23:30:13.281 DEBUG: Command line string for the browser process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --remote-debugging-port=58988
+- 23:30:13.328 DEBUG: App::OnContextInitialized()
+- 23:30:13.328 DEBUG: Window max width/height = 1286/690
+- 23:30:13.328 DEBUG: GetBrowserWindow(): not found, hwnd = 133662
+- 23:30:13.328 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:30:13.328 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:30:13.328 DEBUG: StoreBrowserWindow(): hwnd = 133662
+- 23:30:13.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0126 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2963 --gpu-driver-date=1-16-2013 --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --service-request-channel-token=C26B342EAC761CF82D2243BEA6399D4D --mojo-platform-channel-handle=1372 /prefetch:2
+- 23:30:13.343 DEBUG: ClientHandler::OnAfterCreated()
+- 23:30:13.343 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:30:13.359 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:30:13.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1F94867F57E85BFB024BC220CD68B664 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1F94867F57E85BFB024BC220CD68B664 --renderer-client-id=3 --mojo-platform-channel-handle=1644 /prefetch:1
+[0917/233013.831:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:30:13.046 DEBUG: OnBrowserCreated()
+- 23:30:15.935 INFO: GET 200 /
+- 23:30:15.575 DEBUG: OnContextCreated()
+- 23:30:15.184 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53823/
+- 23:31:15.094 INFO: --------------------------------------------------------
+- 23:31:15.094 INFO: Started application
+- 23:31:15.094 INFO: Logging to: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log
+- 23:31:15.094 INFO: Log level = DEBUG4
+- 23:31:15.094 INFO: Starting Mongoose 3.9c web server
+- 23:31:15.094 INFO: WWW directory: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\www
+- 23:31:15.094 INFO: Index files: index.html,index.php
+- 23:31:15.094 INFO: CGI interpreter: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\php\php-cgi.exe
+- 23:31:15.094 INFO: CGI pattern: **.php$
+- 23:31:15.094 INFO: Hide files patterns: 
+- 23:31:15.094 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RISKYJ~1\AppData\Local\Temp\
+- 23:31:15.094 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:31:15.109 INFO: Web server url: http://127.0.0.1:53888/
+- 23:31:15.109 INFO: remote_debugging_port = 49327
+- 23:31:15.109 DEBUG: Command line string for the browser process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --remote-debugging-port=49327
+- 23:31:15.156 DEBUG: App::OnContextInitialized()
+- 23:31:15.156 DEBUG: Window max width/height = 1286/690
+- 23:31:15.156 DEBUG: GetBrowserWindow(): not found, hwnd = 264570
+- 23:31:15.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:31:15.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:31:15.156 DEBUG: StoreBrowserWindow(): hwnd = 264570
+- 23:31:15.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0126 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2963 --gpu-driver-date=1-16-2013 --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --service-request-channel-token=B398FF9C113551C4A6BAFAC7C0881A3D --mojo-platform-channel-handle=1384 /prefetch:2
+- 23:31:15.187 DEBUG: ClientHandler::OnAfterCreated()
+- 23:31:15.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:31:15.203 DEBUG: OnLoadingStateChange: loading=1, url=
+[0917/233115.724:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:31:15.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=DBDC3FB97EE13C5016EF70D58FD25A1A --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=DBDC3FB97EE13C5016EF70D58FD25A1A --renderer-client-id=3 --mojo-platform-channel-handle=1660 /prefetch:1
+- 23:31:15.031 DEBUG: OnBrowserCreated()
+[0917/233115.776:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0917/233115.776:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\webcache\GPUCache to C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\webcache\old_GPUCache_000
+[0917/233115.777:ERROR:disk_cache.cc(132)] Unable to create cache
+[0917/233115.777:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0917/233115.800:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0917/233115.800:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\webcache\Cache to C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\webcache\old_Cache_000
+[0917/233115.800:ERROR:disk_cache.cc(132)] Unable to create cache
+- 23:31:17.560 DEBUG: OnContextCreated()
+- 23:31:17.810 INFO: GET 200 /
+- 23:31:18.948 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53888/
+- 23:31:18.136 DEBUG: OnBeforeClose() hwnd=330242
+- 23:31:18.136 DEBUG: RemoveBrowserWindow(): hwnd = 330242
+- 23:31:18.136 DEBUG: GetBrowserWindow(): not found, hwnd = 330242
+- 23:31:18.136 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:31:20.566 DEBUG: WM_DESTROY
+- 23:31:20.566 DEBUG: RemoveBrowserWindow(): hwnd = 133662
+- 23:31:20.581 INFO: Stopping Mongoose web server
+- 23:31:20.581 DEBUG: Mongoose webserver stopped immediately
+- 23:31:20.628 DEBUG: OnBeforeClose() hwnd=264524
+- 23:31:20.628 DEBUG: RemoveBrowserWindow(): hwnd = 264524
+- 23:31:20.628 DEBUG: GetBrowserWindow(): not found, hwnd = 264524
+- 23:31:20.628 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:31:20.628 DEBUG: Calling CefQuitMessageLoop()
+- 23:31:20.753 INFO: Ended application
+- 23:31:20.753 INFO: --------------------------------------------------------
+- 23:31:36.016 INFO: --------------------------------------------------------
+- 23:31:36.016 INFO: Started application
+- 23:31:36.016 INFO: Logging to: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log
+- 23:31:36.016 INFO: Log level = DEBUG4
+- 23:31:36.016 INFO: Starting Mongoose 3.9c web server
+- 23:31:36.016 INFO: WWW directory: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\www
+- 23:31:36.016 INFO: Index files: index.html,index.php
+- 23:31:36.016 INFO: CGI interpreter: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\php\php-cgi.exe
+- 23:31:36.016 INFO: CGI pattern: **.php$
+- 23:31:36.016 INFO: Hide files patterns: 
+- 23:31:36.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RISKYJ~1\AppData\Local\Temp\
+- 23:31:36.016 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:31:36.016 INFO: Web server url: http://127.0.0.1:53917/
+- 23:31:36.016 INFO: remote_debugging_port = 53567
+- 23:31:36.016 DEBUG: Command line string for the browser process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --remote-debugging-port=53567
+- 23:31:37.063 DEBUG: App::OnContextInitialized()
+- 23:31:37.063 DEBUG: Window max width/height = 1286/690
+- 23:31:37.063 DEBUG: GetBrowserWindow(): not found, hwnd = 723426
+- 23:31:37.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:31:37.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:31:37.063 DEBUG: StoreBrowserWindow(): hwnd = 723426
+- 23:31:37.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0126 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2963 --gpu-driver-date=1-16-2013 --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --service-request-channel-token=8531C8E63D56EFF6558BC06061513EE5 --mojo-platform-channel-handle=1368 /prefetch:2
+- 23:31:37.094 DEBUG: ClientHandler::OnAfterCreated()
+- 23:31:37.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:31:37.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:31:37.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0FA3B63E2074E6D1C03137D13332F653 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0FA3B63E2074E6D1C03137D13332F653 --renderer-client-id=3 --mojo-platform-channel-handle=1656 /prefetch:1
+[0917/233137.137:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:31:37.031 DEBUG: OnBrowserCreated()
+- 23:31:38.716 INFO: GET 200 /
+- 23:31:38.591 DEBUG: OnContextCreated()
+- 23:31:38.888 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53917/
+[0917/233144.372:INFO:CONSOLE(128)] "http://localhost/mymovie/index.php/home/search_movie/love", source: http://127.0.0.1:53917/ (128)
+[0917/233145.061:INFO:CONSOLE(0)] "XMLHttpRequest cannot load http://localhost/mymovie/index.php/home/search_movie/love. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://127.0.0.1:53917' is therefore not allowed access.", source: http://127.0.0.1:53917/ (0)
+[0917/233145.068:INFO:CONSOLE(132)] "Error: Network Error", source: http://127.0.0.1:53917/ (132)
+- 23:31:47.390 DEBUG: ClientHandler::OnAfterCreated()
+- 23:31:47.390 DEBUG: GetBrowserWindow(): not found, hwnd = 723414
+- 23:31:47.390 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 23:31:47.390 DEBUG: StoreBrowserWindow(): hwnd = 723414
+- 23:31:47.437 DEBUG: Centering popup window relative to its parent
+- 23:31:47.452 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:31:47.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A756C84B2628BD32F1BE18CD2A12E53B --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A756C84B2628BD32F1BE18CD2A12E53B --renderer-client-id=4 --mojo-platform-channel-handle=2296 /prefetch:1
+- 23:31:47.031 DEBUG: OnBrowserCreated()
+- 23:31:47.062 DEBUG: OnContextCreated()
+- 23:31:48.061 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 23:33:28.978 DEBUG: OnBeforeClose() hwnd=723414
+- 23:33:28.978 DEBUG: RemoveBrowserWindow(): hwnd = 723414
+- 23:33:29.947 DEBUG: OnBrowserDestroyed()
+- 23:33:33.034 DEBUG: WM_DESTROY
+- 23:33:33.034 DEBUG: RemoveBrowserWindow(): hwnd = 723426
+- 23:33:33.034 INFO: Stopping Mongoose web server
+- 23:33:33.034 DEBUG: Mongoose webserver stopped immediately
+- 23:33:33.065 DEBUG: OnBeforeClose() hwnd=657860
+- 23:33:33.065 DEBUG: RemoveBrowserWindow(): hwnd = 657860
+- 23:33:33.065 DEBUG: GetBrowserWindow(): not found, hwnd = 657860
+- 23:33:33.065 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:33:33.065 DEBUG: Calling CefQuitMessageLoop()
+- 23:33:33.971 DEBUG: OnBrowserDestroyed()
+- 23:33:33.486 INFO: Ended application
+- 23:33:33.486 INFO: --------------------------------------------------------
+- 23:33:38.016 INFO: --------------------------------------------------------
+- 23:33:38.016 INFO: Started application
+- 23:33:38.016 INFO: Logging to: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log
+- 23:33:38.016 INFO: Log level = DEBUG4
+- 23:33:38.016 INFO: Starting Mongoose 3.9c web server
+- 23:33:38.016 INFO: WWW directory: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\www
+- 23:33:38.016 INFO: Index files: index.html,index.php
+- 23:33:38.016 INFO: CGI interpreter: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\php\php-cgi.exe
+- 23:33:38.016 INFO: CGI pattern: **.php$
+- 23:33:38.016 INFO: Hide files patterns: 
+- 23:33:38.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RISKYJ~1\AppData\Local\Temp\
+- 23:33:38.016 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:33:38.047 INFO: Web server url: http://127.0.0.1:54035/
+- 23:33:38.047 INFO: remote_debugging_port = 61205
+- 23:33:38.078 DEBUG: Command line string for the browser process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --remote-debugging-port=61205
+- 23:33:38.328 DEBUG: App::OnContextInitialized()
+- 23:33:38.328 DEBUG: Window max width/height = 1286/690
+- 23:33:38.328 DEBUG: GetBrowserWindow(): not found, hwnd = 461362
+- 23:33:38.328 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:33:38.328 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:33:38.328 DEBUG: StoreBrowserWindow(): hwnd = 461362
+- 23:33:38.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0126 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2963 --gpu-driver-date=1-16-2013 --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --service-request-channel-token=861362FA60FA8F1AB27699F0BE106461 --mojo-platform-channel-handle=1400 /prefetch:2
+- 23:33:38.406 DEBUG: ClientHandler::OnAfterCreated()
+- 23:33:38.406 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:33:38.422 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:33:38.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=806EDBE5D709FC0DF08693675634C708 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=806EDBE5D709FC0DF08693675634C708 --renderer-client-id=3 --mojo-platform-channel-handle=1640 /prefetch:1
+- 23:33:38.124 DEBUG: OnBrowserCreated()
+[0917/233339.171:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:33:41.464 DEBUG: OnContextCreated()
+- 23:33:41.949 INFO: GET 200 /
+- 23:33:41.245 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54035/
+[0917/233345.810:INFO:CONSOLE(128)] "http://localhost/mymovie/index.php/home/search_movie/love", source: http://127.0.0.1:54035/ (128)
+[0917/233346.407:INFO:CONSOLE(0)] "XMLHttpRequest cannot load http://localhost/mymovie/index.php/home/search_movie/love. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://127.0.0.1:54035' is therefore not allowed access.", source: http://127.0.0.1:54035/ (0)
+[0917/233346.408:INFO:CONSOLE(132)] "Error: Network Error", source: http://127.0.0.1:54035/ (132)
+- 23:33:48.922 DEBUG: ClientHandler::OnAfterCreated()
+- 23:33:48.922 DEBUG: GetBrowserWindow(): not found, hwnd = 723420
+- 23:33:48.922 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 23:33:48.922 DEBUG: StoreBrowserWindow(): hwnd = 723420
+- 23:33:48.922 DEBUG: Centering popup window relative to its parent
+- 23:33:48.922 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:33:48.016 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A9390911088BB31F48A81FBEE2C980B0 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A9390911088BB31F48A81FBEE2C980B0 --renderer-client-id=4 --mojo-platform-channel-handle=2208 /prefetch:1
+- 23:33:48.031 DEBUG: OnBrowserCreated()
+- 23:33:48.047 DEBUG: OnContextCreated()
+- 23:33:48.172 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 23:36:46.481 DEBUG: OnBeforeClose() hwnd=723420
+- 23:36:46.512 DEBUG: RemoveBrowserWindow(): hwnd = 723420
+- 23:36:47.027 DEBUG: OnBrowserDestroyed()
+- 23:36:57.416 DEBUG: WM_DESTROY
+- 23:36:57.416 DEBUG: RemoveBrowserWindow(): hwnd = 461362
+- 23:36:57.416 INFO: Stopping Mongoose web server
+- 23:36:57.416 DEBUG: Mongoose webserver stopped immediately
+- 23:36:57.416 DEBUG: OnBeforeClose() hwnd=854292
+- 23:36:57.416 DEBUG: RemoveBrowserWindow(): hwnd = 854292
+- 23:36:57.416 DEBUG: GetBrowserWindow(): not found, hwnd = 854292
+- 23:36:57.416 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:36:57.416 DEBUG: Calling CefQuitMessageLoop()
+- 23:36:58.822 INFO: Ended application
+- 23:36:58.822 INFO: --------------------------------------------------------
+- 23:37:02.015 INFO: --------------------------------------------------------
+- 23:37:02.015 INFO: Started application
+- 23:37:02.015 INFO: Logging to: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log
+- 23:37:02.015 INFO: Log level = DEBUG4
+- 23:37:02.015 INFO: Starting Mongoose 3.9c web server
+- 23:37:02.015 INFO: WWW directory: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\www
+- 23:37:02.015 INFO: Index files: index.html,index.php
+- 23:37:02.015 INFO: CGI interpreter: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\php\php-cgi.exe
+- 23:37:02.015 INFO: CGI pattern: **.php$
+- 23:37:02.015 INFO: Hide files patterns: 
+- 23:37:02.015 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RISKYJ~1\AppData\Local\Temp\
+- 23:37:02.046 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:37:02.062 INFO: Web server url: http://127.0.0.1:54238/
+- 23:37:02.062 INFO: remote_debugging_port = 59605
+- 23:37:02.093 DEBUG: Command line string for the browser process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --remote-debugging-port=59605
+- 23:37:03.374 DEBUG: App::OnContextInitialized()
+- 23:37:03.374 DEBUG: Window max width/height = 1286/690
+- 23:37:03.374 DEBUG: GetBrowserWindow(): not found, hwnd = 133814
+- 23:37:03.374 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:37:03.374 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:37:03.374 DEBUG: StoreBrowserWindow(): hwnd = 133814
+- 23:37:03.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0126 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2963 --gpu-driver-date=1-16-2013 --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --service-request-channel-token=DEBB07C0D2BD8FC85939F0707DA4E36F --mojo-platform-channel-handle=1404 /prefetch:2
+- 23:37:03.452 DEBUG: ClientHandler::OnAfterCreated()
+- 23:37:03.452 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:37:03.452 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:37:03.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=582C3EBB502677A75B76547091B73E46 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=582C3EBB502677A75B76547091B73E46 --renderer-client-id=3 --mojo-platform-channel-handle=1616 /prefetch:1
+- 23:37:03.093 DEBUG: OnBrowserCreated()
+[0917/233703.534:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:37:06.213 DEBUG: OnContextCreated()
+- 23:37:06.759 INFO: GET 200 /
+- 23:37:07.070 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54238/
+[0917/233717.948:INFO:CONSOLE(128)] "http://localhost/mymovie/index.php/home/search_movie/code", source: http://127.0.0.1:54238/ (128)
+[0917/233718.426:INFO:CONSOLE(0)] "XMLHttpRequest cannot load http://localhost/mymovie/index.php/home/search_movie/code. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://127.0.0.1:54238' is therefore not allowed access.", source: http://127.0.0.1:54238/ (0)
+[0917/233718.427:INFO:CONSOLE(132)] "Error: Network Error", source: http://127.0.0.1:54238/ (132)
+- 23:37:21.250 DEBUG: ClientHandler::OnAfterCreated()
+- 23:37:21.250 DEBUG: GetBrowserWindow(): not found, hwnd = 330402
+- 23:37:21.250 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 23:37:21.250 DEBUG: StoreBrowserWindow(): hwnd = 330402
+- 23:37:21.250 DEBUG: Centering popup window relative to its parent
+- 23:37:21.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:37:21.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6DBDDBA61520247669702E97A6849418 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6DBDDBA61520247669702E97A6849418 --renderer-client-id=4 --mojo-platform-channel-handle=2184 /prefetch:1
+- 23:37:21.031 DEBUG: OnBrowserCreated()
+- 23:37:22.047 DEBUG: OnContextCreated()
+- 23:37:22.515 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+[0917/233746.888:INFO:CONSOLE(128)] "http://localhost/mymovie/index.php/home/search_movie/code", source: http://127.0.0.1:54238/ (128)
+[0917/233747.015:INFO:CONSOLE(0)] "XMLHttpRequest cannot load http://localhost/mymovie/index.php/home/search_movie/code. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://127.0.0.1:54238' is therefore not allowed access.", source: http://127.0.0.1:54238/ (0)
+[0917/233747.015:INFO:CONSOLE(132)] "Error: Network Error", source: http://127.0.0.1:54238/ (132)
+- 23:39:35.631 DEBUG: OnBeforeClose() hwnd=330402
+- 23:39:35.631 DEBUG: RemoveBrowserWindow(): hwnd = 330402
+- 23:39:37.221 DEBUG: WM_DESTROY
+- 23:39:37.221 DEBUG: RemoveBrowserWindow(): hwnd = 133814
+- 23:39:37.221 INFO: Stopping Mongoose web server
+- 23:39:37.221 DEBUG: Mongoose webserver stopped immediately
+- 23:39:37.221 DEBUG: OnBeforeClose() hwnd=199338
+- 23:39:37.221 DEBUG: RemoveBrowserWindow(): hwnd = 199338
+- 23:39:37.221 DEBUG: GetBrowserWindow(): not found, hwnd = 199338
+- 23:39:37.221 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:39:37.221 DEBUG: Calling CefQuitMessageLoop()
+- 23:39:37.267 INFO: Ended application
+- 23:39:37.267 INFO: --------------------------------------------------------
+- 23:39:39.000 INFO: --------------------------------------------------------
+- 23:39:39.000 INFO: Started application
+- 23:39:39.000 INFO: Logging to: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log
+- 23:39:39.000 INFO: Log level = DEBUG4
+- 23:39:39.000 INFO: Starting Mongoose 3.9c web server
+- 23:39:39.000 INFO: WWW directory: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\www
+- 23:39:39.000 INFO: Index files: index.html,index.php
+- 23:39:39.000 INFO: CGI interpreter: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\php\php-cgi.exe
+- 23:39:39.000 INFO: CGI pattern: **.php$
+- 23:39:39.000 INFO: Hide files patterns: 
+- 23:39:39.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RISKYJ~1\AppData\Local\Temp\
+- 23:39:39.016 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:39:39.016 INFO: Web server url: http://127.0.0.1:54395/
+- 23:39:39.016 INFO: remote_debugging_port = 59696
+- 23:39:39.016 DEBUG: Command line string for the browser process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --remote-debugging-port=59696
+- 23:39:39.063 DEBUG: App::OnContextInitialized()
+- 23:39:39.063 DEBUG: Window max width/height = 1286/690
+- 23:39:39.063 DEBUG: GetBrowserWindow(): not found, hwnd = 395922
+- 23:39:39.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:39:39.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:39:39.063 DEBUG: StoreBrowserWindow(): hwnd = 395922
+- 23:39:39.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0126 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2963 --gpu-driver-date=1-16-2013 --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --service-request-channel-token=4C06F2403F853A62BC3B364C2FF3AE38 --mojo-platform-channel-handle=1396 /prefetch:2
+- 23:39:39.110 DEBUG: ClientHandler::OnAfterCreated()
+- 23:39:39.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:39:39.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:39:39.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=236CC3DA8CF5B304EAABF3B0045B6779 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=236CC3DA8CF5B304EAABF3B0045B6779 --renderer-client-id=3 --mojo-platform-channel-handle=1644 /prefetch:1
+[0917/233939.721:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:39:39.031 DEBUG: OnBrowserCreated()
+- 23:39:40.311 INFO: GET 200 /
+- 23:39:40.170 DEBUG: OnContextCreated()
+- 23:39:41.498 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54395/
+[0917/233944.476:INFO:CONSOLE(128)] "http://localhost/mymovie/index.php/home/search_movie/love", source: http://127.0.0.1:54395/ (128)
+[0917/233944.559:INFO:CONSOLE(0)] "XMLHttpRequest cannot load http://localhost/mymovie/index.php/home/search_movie/love. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://127.0.0.1:54395' is therefore not allowed access.", source: http://127.0.0.1:54395/ (0)
+[0917/233944.561:INFO:CONSOLE(132)] "Error: Network Error", source: http://127.0.0.1:54395/ (132)
+- 23:39:46.177 DEBUG: ClientHandler::OnAfterCreated()
+- 23:39:46.177 DEBUG: GetBrowserWindow(): not found, hwnd = 461478
+- 23:39:46.177 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 23:39:46.177 DEBUG: StoreBrowserWindow(): hwnd = 461478
+- 23:39:46.177 DEBUG: Centering popup window relative to its parent
+- 23:39:46.192 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:39:46.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0544F1A387D70704D83A32AD8FB64BBC --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0544F1A387D70704D83A32AD8FB64BBC --renderer-client-id=4 --mojo-platform-channel-handle=2168 /prefetch:1
+- 23:39:46.032 DEBUG: OnBrowserCreated()
+- 23:39:46.047 DEBUG: OnContextCreated()
+- 23:39:47.442 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 23:39:49.375 DEBUG: OnBeforeClose() hwnd=461478
+- 23:39:49.375 DEBUG: RemoveBrowserWindow(): hwnd = 461478
+- 23:39:50.983 DEBUG: WM_DESTROY
+- 23:39:50.983 DEBUG: RemoveBrowserWindow(): hwnd = 395922
+- 23:39:50.983 INFO: Stopping Mongoose web server
+- 23:39:50.983 DEBUG: Mongoose webserver stopped immediately
+- 23:39:50.983 DEBUG: OnBeforeClose() hwnd=264882
+- 23:39:50.983 DEBUG: RemoveBrowserWindow(): hwnd = 264882
+- 23:39:50.983 DEBUG: GetBrowserWindow(): not found, hwnd = 264882
+- 23:39:50.983 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:39:50.983 DEBUG: Calling CefQuitMessageLoop()
+- 23:39:50.873 DEBUG: OnBrowserDestroyed()
+- 23:39:50.077 INFO: Ended application
+- 23:39:50.077 INFO: --------------------------------------------------------
+- 23:40:31.000 INFO: --------------------------------------------------------
+- 23:40:31.000 INFO: Started application
+- 23:40:31.000 INFO: Logging to: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log
+- 23:40:31.000 INFO: Log level = DEBUG4
+- 23:40:31.000 INFO: Starting Mongoose 3.9c web server
+- 23:40:31.000 INFO: WWW directory: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\www
+- 23:40:31.000 INFO: Index files: index.html,index.php
+- 23:40:31.000 INFO: CGI interpreter: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\php\php-cgi.exe
+- 23:40:31.000 INFO: CGI pattern: **.php$
+- 23:40:31.000 INFO: Hide files patterns: 
+- 23:40:31.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RISKYJ~1\AppData\Local\Temp\
+- 23:40:31.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:40:31.000 INFO: Web server url: http://127.0.0.1:54444/
+- 23:40:31.000 INFO: remote_debugging_port = 62307
+- 23:40:31.000 DEBUG: Command line string for the browser process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --remote-debugging-port=62307
+- 23:40:31.047 DEBUG: App::OnContextInitialized()
+- 23:40:31.047 DEBUG: Window max width/height = 1286/690
+- 23:40:31.047 DEBUG: GetBrowserWindow(): not found, hwnd = 264886
+- 23:40:31.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:40:31.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:40:31.047 DEBUG: StoreBrowserWindow(): hwnd = 264886
+- 23:40:31.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0126 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2963 --gpu-driver-date=1-16-2013 --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --service-request-channel-token=8051FE57A09D7C963A15F936B2D76D32 --mojo-platform-channel-handle=1316 /prefetch:2
+- 23:40:31.109 DEBUG: ClientHandler::OnAfterCreated()
+- 23:40:31.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:40:31.125 DEBUG: OnLoadingStateChange: loading=1, url=
+[0917/234031.449:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:40:31.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=32FDA8EBFF41768595A68FD9C928C996 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=32FDA8EBFF41768595A68FD9C928C996 --renderer-client-id=3 --mojo-platform-channel-handle=1652 /prefetch:1
+- 23:40:31.032 DEBUG: OnBrowserCreated()
+- 23:40:32.310 INFO: GET 200 /
+- 23:40:32.170 DEBUG: OnContextCreated()
+- 23:40:32.451 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54444/
+- 23:40:34.432 DEBUG: ClientHandler::OnAfterCreated()
+- 23:40:34.432 DEBUG: GetBrowserWindow(): not found, hwnd = 461490
+- 23:40:34.432 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 23:40:34.432 DEBUG: StoreBrowserWindow(): hwnd = 461490
+- 23:40:34.448 DEBUG: Centering popup window relative to its parent
+- 23:40:34.463 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:40:34.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=44A0B5871460B1FE8099050A49B7FC2C --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=44A0B5871460B1FE8099050A49B7FC2C --renderer-client-id=4 --mojo-platform-channel-handle=2208 /prefetch:1
+- 23:40:34.031 DEBUG: OnBrowserCreated()
+- 23:40:34.047 DEBUG: OnContextCreated()
+- 23:40:35.713 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+[0917/234040.237:INFO:CONSOLE(128)] "http://localhost/mymovie/index.php/home/search_movie/love", source: http://127.0.0.1:54444/ (128)
+[0917/234040.337:INFO:CONSOLE(0)] "XMLHttpRequest cannot load http://localhost/mymovie/index.php/home/search_movie/love. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://127.0.0.1:54444' is therefore not allowed access.", source: http://127.0.0.1:54444/ (0)
+[0917/234040.337:INFO:CONSOLE(132)] "Error: Network Error", source: http://127.0.0.1:54444/ (132)
+- 23:41:07.911 DEBUG: OnBeforeClose() hwnd=461490
+- 23:41:07.911 DEBUG: RemoveBrowserWindow(): hwnd = 461490
+- 23:43:07.000 INFO: --------------------------------------------------------
+- 23:43:07.000 INFO: Started application
+- 23:43:07.000 INFO: Logging to: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log
+- 23:43:07.000 INFO: Log level = DEBUG4
+- 23:43:07.000 INFO: Starting Mongoose 3.9c web server
+- 23:43:07.000 INFO: WWW directory: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\www
+- 23:43:07.000 INFO: Index files: index.html,index.php
+- 23:43:07.000 INFO: CGI interpreter: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\php\php-cgi.exe
+- 23:43:07.000 INFO: CGI pattern: **.php$
+- 23:43:07.000 INFO: Hide files patterns: 
+- 23:43:07.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RISKYJ~1\AppData\Local\Temp\
+- 23:43:07.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:43:07.000 INFO: Web server url: http://127.0.0.1:54577/
+- 23:43:07.000 INFO: remote_debugging_port = 60548
+- 23:43:07.000 DEBUG: Command line string for the browser process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --remote-debugging-port=60548
+- 23:43:08.047 DEBUG: App::OnContextInitialized()
+- 23:43:08.047 DEBUG: Window max width/height = 1286/690
+- 23:43:08.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1116668
+- 23:43:08.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:43:08.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:43:08.047 DEBUG: StoreBrowserWindow(): hwnd = 1116668
+- 23:43:08.078 DEBUG: ClientHandler::OnAfterCreated()
+- 23:43:08.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:43:08.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0126 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2963 --gpu-driver-date=1-16-2013 --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --service-request-channel-token=8D8F315C5B8704DC76A5F7E149A3065B --mojo-platform-channel-handle=1368 /prefetch:2
+- 23:43:08.093 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:43:08.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=74F57CB863514C40A229B14798D141D4 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=74F57CB863514C40A229B14798D141D4 --renderer-client-id=3 --mojo-platform-channel-handle=1632 /prefetch:1
+[0917/234308.135:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:43:08.047 DEBUG: OnBrowserCreated()
+[0917/234308.152:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0917/234308.152:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\webcache\GPUCache to C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\webcache\old_GPUCache_000
+[0917/234308.153:ERROR:disk_cache.cc(132)] Unable to create cache
+[0917/234308.153:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0917/234308.155:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0917/234308.155:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\webcache\Cache to C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\webcache\old_Cache_000
+[0917/234308.155:ERROR:disk_cache.cc(132)] Unable to create cache
+- 23:43:09.310 INFO: GET 200 /
+- 23:43:09.201 DEBUG: OnContextCreated()
+- 23:43:10.184 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54577/
+[0917/234313.929:INFO:CONSOLE(128)] "http://localhost/mymovie/index.php/home/search_movie/love", source: http://127.0.0.1:54577/ (128)
+[0917/234314.026:INFO:CONSOLE(0)] "XMLHttpRequest cannot load http://localhost/mymovie/index.php/home/search_movie/love. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://127.0.0.1:54577' is therefore not allowed access.", source: http://127.0.0.1:54577/ (0)
+[0917/234314.026:INFO:CONSOLE(132)] "Error: Network Error", source: http://127.0.0.1:54577/ (132)
+- 23:43:15.488 DEBUG: ClientHandler::OnAfterCreated()
+- 23:43:15.488 DEBUG: GetBrowserWindow(): not found, hwnd = 854704
+- 23:43:15.488 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 23:43:15.488 DEBUG: StoreBrowserWindow(): hwnd = 854704
+- 23:43:15.488 DEBUG: Centering popup window relative to its parent
+- 23:43:15.519 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:43:15.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1B1B77EBC6793B0220072CF623E19DCF --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1B1B77EBC6793B0220072CF623E19DCF --renderer-client-id=4 --mojo-platform-channel-handle=2192 /prefetch:1
+- 23:43:15.031 DEBUG: OnBrowserCreated()
+- 23:43:15.047 DEBUG: OnContextCreated()
+- 23:43:15.769 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+[0917/234330.700:INFO:CONSOLE(128)] "http://localhost/mymovie/index.php/home/search_movie/love", source: http://127.0.0.1:54577/ (128)
+[0917/234330.811:INFO:CONSOLE(0)] "XMLHttpRequest cannot load http://localhost/mymovie/index.php/home/search_movie/love. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://127.0.0.1:54577' is therefore not allowed access.", source: http://127.0.0.1:54577/ (0)
+[0917/234330.811:INFO:CONSOLE(132)] "Error: Network Error", source: http://127.0.0.1:54577/ (132)
+- 23:44:10.494 DEBUG: OnBeforeClose() hwnd=854704
+- 23:44:10.494 DEBUG: RemoveBrowserWindow(): hwnd = 854704
+- 23:44:11.898 DEBUG: WM_DESTROY
+- 23:44:11.898 DEBUG: RemoveBrowserWindow(): hwnd = 1116668
+- 23:44:11.898 INFO: Stopping Mongoose web server
+- 23:44:11.898 DEBUG: Mongoose webserver stopped immediately
+- 23:44:11.898 DEBUG: OnBeforeClose() hwnd=919828
+- 23:44:11.898 DEBUG: RemoveBrowserWindow(): hwnd = 919828
+- 23:44:11.898 DEBUG: GetBrowserWindow(): not found, hwnd = 919828
+- 23:44:11.898 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:44:11.898 DEBUG: Calling CefQuitMessageLoop()
+- 23:44:11.960 INFO: Ended application
+- 23:44:11.960 INFO: --------------------------------------------------------
+- 23:44:36.688 DEBUG: WM_DESTROY
+- 23:44:36.688 DEBUG: RemoveBrowserWindow(): hwnd = 264886
+- 23:44:36.688 INFO: Stopping Mongoose web server
+- 23:44:36.688 DEBUG: Mongoose webserver stopped immediately
+- 23:44:36.688 DEBUG: OnBeforeClose() hwnd=264888
+- 23:44:36.688 DEBUG: RemoveBrowserWindow(): hwnd = 264888
+- 23:44:36.688 DEBUG: GetBrowserWindow(): not found, hwnd = 264888
+- 23:44:36.688 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:44:36.688 DEBUG: Calling CefQuitMessageLoop()
+- 23:44:36.734 INFO: Ended application
+- 23:44:36.734 INFO: --------------------------------------------------------
+- 23:44:41.000 INFO: --------------------------------------------------------
+- 23:44:41.000 INFO: Started application
+- 23:44:41.000 INFO: Logging to: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log
+- 23:44:41.000 INFO: Log level = DEBUG4
+- 23:44:41.000 INFO: Starting Mongoose 3.9c web server
+- 23:44:41.000 INFO: WWW directory: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\www
+- 23:44:41.000 INFO: Index files: index.html,index.php
+- 23:44:41.000 INFO: CGI interpreter: C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\php\php-cgi.exe
+- 23:44:41.000 INFO: CGI pattern: **.php$
+- 23:44:41.000 INFO: Hide files patterns: 
+- 23:44:41.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RISKYJ~1\AppData\Local\Temp\
+- 23:44:41.015 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:44:41.015 INFO: Web server url: http://127.0.0.1:54674/
+- 23:44:41.015 INFO: remote_debugging_port = 58267
+- 23:44:41.015 DEBUG: Command line string for the browser process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --remote-debugging-port=58267
+- 23:44:41.046 DEBUG: App::OnContextInitialized()
+- 23:44:41.046 DEBUG: Window max width/height = 1286/690
+- 23:44:41.062 DEBUG: GetBrowserWindow(): not found, hwnd = 461498
+- 23:44:41.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:44:41.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:44:41.062 DEBUG: StoreBrowserWindow(): hwnd = 461498
+- 23:44:42.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0126 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2963 --gpu-driver-date=1-16-2013 --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --service-request-channel-token=AD15570506499FF2D0F8DE53B3FF0E5E --mojo-platform-channel-handle=1368 /prefetch:2
+- 23:44:42.093 DEBUG: ClientHandler::OnAfterCreated()
+- 23:44:42.093 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:44:42.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:44:42.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=561713575E09D28336D67ED44C3659A2 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=561713575E09D28336D67ED44C3659A2 --renderer-client-id=3 --mojo-platform-channel-handle=1644 /prefetch:1
+[0917/234442.061:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:44:42.032 DEBUG: OnBrowserCreated()
+- 23:44:43.809 INFO: GET 200 /
+- 23:44:43.701 DEBUG: OnContextCreated()
+- 23:44:44.542 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54674/
+- 23:44:46.633 DEBUG: ClientHandler::OnAfterCreated()
+- 23:44:46.633 DEBUG: GetBrowserWindow(): not found, hwnd = 723192
+- 23:44:46.633 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 23:44:46.633 DEBUG: StoreBrowserWindow(): hwnd = 723192
+- 23:44:46.633 DEBUG: Centering popup window relative to its parent
+- 23:44:46.648 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:44:46.000 DEBUG: Command line string for the renderer process: "C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=89DA13AEFF8AE5F81658C0ED66C27BB2 --lang=en-US --lang=en-US --log-file="C:\Users\Risky Julianto\Desktop\Repo\phpdesktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=89DA13AEFF8AE5F81658C0ED66C27BB2 --renderer-client-id=4 --mojo-platform-channel-handle=2212 /prefetch:1
+- 23:44:46.031 DEBUG: OnBrowserCreated()
+- 23:44:46.046 DEBUG: OnContextCreated()
+- 23:44:46.882 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+[0917/234452.869:INFO:CONSOLE(128)] "http://localhost/mymovie/index.php/home/search_movie/love", source: http://127.0.0.1:54674/ (128)
+[0917/234452.992:INFO:CONSOLE(0)] "XMLHttpRequest cannot load http://localhost/mymovie/index.php/home/search_movie/love. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://127.0.0.1:54674' is therefore not allowed access.", source: http://127.0.0.1:54674/ (0)
+[0917/234452.993:INFO:CONSOLE(132)] "Error: Network Error", source: http://127.0.0.1:54674/ (132)
+- 23:45:16.507 DEBUG: OnBeforeClose() hwnd=723192
+- 23:45:16.507 DEBUG: RemoveBrowserWindow(): hwnd = 723192
+- 23:45:17.599 DEBUG: WM_DESTROY
+- 23:45:17.599 DEBUG: RemoveBrowserWindow(): hwnd = 461498
+- 23:45:17.599 INFO: Stopping Mongoose web server
+- 23:45:17.599 DEBUG: Mongoose webserver stopped immediately
+- 23:45:17.599 DEBUG: OnBeforeClose() hwnd=985590
+- 23:45:17.599 DEBUG: RemoveBrowserWindow(): hwnd = 985590
+- 23:45:17.599 DEBUG: GetBrowserWindow(): not found, hwnd = 985590
+- 23:45:17.599 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:45:17.599 DEBUG: Calling CefQuitMessageLoop()
+- 23:45:17.661 INFO: Ended application
+- 23:45:17.661 INFO: --------------------------------------------------------
